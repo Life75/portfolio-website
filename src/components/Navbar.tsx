@@ -1,57 +1,40 @@
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
 
 export default function Navbar() {
-  const linkBase =
-    "text-sm font-medium transition-colors hover:text-zinc-900 dark:hover:text-white"
-
-  const linkActive =
-    "text-zinc-900 dark:text-white"
-
-  const linkInactive =
-    "text-zinc-500 dark:text-zinc-400"
-
+ /* const linkClass = ({ isActive }: { isActive: boolean }) =>
+    isActive
+      ? "text-primary font-medium"
+      : "text-base-content/70 hover:text-base-content transition"
+*/
   return (
-    <header className="sticky top-0 z-50 bg-white/70 dark:bg-zinc-900/70 backdrop-blur border-b border-zinc-200 dark:border-zinc-800">
-      <nav className="mx-auto max-w-6xl px-6">
-        <div className="flex h-16 items-center justify-between">
-
-          {/* Logo / Name */}
-          <NavLink
-            to="/"
-            className="text-lg font-semibold tracking-tight text-zinc-900 dark:text-white"
-          >
-            Austyn
-          </NavLink>
-
-          {/* Links */}
-          <div className="flex items-center gap-6">
-            <NavLink
-              to="/projects"
-              className={({ isActive }) =>
-                `${linkBase} ${isActive ? linkActive : linkInactive}`
-              }
-            >
-              Projects
-            </NavLink>
-
-            <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                `${linkBase} ${isActive ? linkActive : linkInactive}`
-              }
-            >
-              About
-            </NavLink>
-
-            <NavLink
-              to="/resume"
-              className="rounded-md border border-zinc-300 dark:border-zinc-700 px-3 py-1.5 text-sm font-medium text-zinc-900 dark:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800 transition"
-            >
-              Resume
-            </NavLink>
+    <div class="navbar bg-base-100 shadow-sm">
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl">daisyUI</a>
+    </div>
+    <div class="flex gap-2">
+      <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+      <div class="dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+          <div class="w-10 rounded-full">
+            <img
+              alt="Tailwind CSS Navbar component"
+              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
           </div>
         </div>
-      </nav>
-    </header>
+        <ul
+          tabindex="-1"
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <li>
+            <a class="justify-between">
+              Profile
+              <span class="badge">New</span>
+            </a>
+          </li>
+          <li><a>Settings</a></li>
+          <li><a>Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
   )
 }
