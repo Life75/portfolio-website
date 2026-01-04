@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom"
-import Navbar from "../components/Navbar"
 import { useMouseOver } from '../hooks/useMouseHover';
 
 export default function MainLayout() {
@@ -23,7 +22,7 @@ export default function MainLayout() {
           background: `radial-gradient(400px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(100, 150, 255, 0.08), transparent 40%)`,
         }}
       /> }
-      <main className="mx-auto max-w-6xl px-6 py-12 relative">
+      <main className="mx-8 max-w-6xl  relative">
         <Outlet />
       </main>
     </div>
