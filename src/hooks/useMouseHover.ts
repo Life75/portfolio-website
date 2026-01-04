@@ -25,7 +25,6 @@ export function useMouseOver() {
     const handleMouseLeave = (e: MouseEvent) => {
         if (!e.relatedTarget) {
             setMouseStatus(false) 
-          //setMousePosition(null);
         } else setMouseStatus(true)
       };
     
