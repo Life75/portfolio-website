@@ -4,6 +4,7 @@ import ExperienceCard from "../components/ExperienceCard";
 import SectionJumper from "../components/SectionJumper";
 import { useState } from "react";
 import about from '../data/about.json'
+import ProjectLink from '../components/ProjectLink';
 export default function Home() {
   const [activeSection, setActiveSection] = useState("");
 
@@ -78,12 +79,17 @@ export default function Home() {
               from="2021"
               to="2025"
               title="Senior Frontend Engineer, Accessibility · Klaviyo"
+              projectLink="https://www.google.com"
               description="Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility."
               tags={["JavaScript", "React"]}
             />
           </div>
         </section>
-
+        <section id="Resume"
+          className="text-slate-100 mt-10 flex "
+        >
+          <ProjectLink/>
+        </section>
         <section
           id="Projects"
           className="text-slate-100 mt-10 flex flex-col gap-10"
