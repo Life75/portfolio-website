@@ -22,7 +22,7 @@ export default function MainLayout() {
           background: `radial-gradient(400px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(100, 150, 255, 0.08), transparent 40%)`,
         }}
       /> }
-      <main className="mx-8 max-w-6xl  relative">
+      <main className=" px-2 relative">
         <Outlet />
       </main>
     </div>

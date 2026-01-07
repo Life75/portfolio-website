@@ -1,0 +1,18 @@
+[
+  {
+    "id": "proj-1",
+    "imageUrl": "https://fastly.picsum.photos/id/902/200/300.jpg?hmac=jcXqlZDNedKqsptpWe_80nmMFRvBXBCnWCpzYwJik3g",
+    "title": "Portfolio Website",
+    "description": "A personal portfolio built with React, TypeScript, and Tailwind CSS.",
+    "tags": ["React", "TypeScript", "Tailwind"],
+    "link": "https://indexzero-861d3.web.app/"
+  },
+  {
+    "id": "proj-2",
+    "imageUrl": "/images/project2.png",
+    "title": "Task Manager App",
+    "description": "A full-stack task management application with real-time updates.",
+    "tags": ["Node.js", "React", "WebSockets"],
+    "link": "https://github.com/example/task-manager"
+  }
+]

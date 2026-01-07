@@ -1,0 +1,27 @@
+[
+    {
+      "id": "exp-1",
+      "from": "2023",
+      "to": "Present",
+      "title": "Frontend Engineer",
+      "description": "Built scalable UI components and improved performance across the main product experience.",
+      "tags": ["React", "TypeScript", "Tailwind"]
+    },
+    {
+      "id": "exp-2",
+      "from": "2021",
+      "to": "2023",
+      "title": "Software Engineer",
+      "description": "Worked on full-stack features, APIs, and internal tooling used by multiple teams.",
+      "tags": ["Node.js", "PostgreSQL", "GraphQL"]
+    },
+    {
+      "id": "exp-3",
+      "from": "2020",
+      "to": "2021",
+      "title": "Mobile Developer",
+      "description": "Built cross-platform mobile features with a focus on performance and accessibility.",
+      "tags": ["React Native", "iOS", "Android"]
+    }
+  ]
+  
