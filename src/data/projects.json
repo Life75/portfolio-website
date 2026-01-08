@@ -2,17 +2,33 @@
   {
     "id": "proj-1",
     "imageUrl": "https://fastly.picsum.photos/id/902/200/300.jpg?hmac=jcXqlZDNedKqsptpWe_80nmMFRvBXBCnWCpzYwJik3g",
-    "title": "Portfolio Website",
-    "description": "A personal portfolio built with React, TypeScript, and Tailwind CSS.",
-    "tags": ["React", "TypeScript", "Tailwind"],
+    "title": "IndexZero",
+    "description": "Web app that visualizes the data structures with a mobile first approach.",
+    "tags": ["Vue 3", "TypeScript", "TailwindCSS", "DaisyUI", "Firebase"],
     "link": "https://indexzero-861d3.web.app/"
   },
   {
     "id": "proj-2",
     "imageUrl": "/images/project2.png",
-    "title": "Task Manager App",
-    "description": "A full-stack task management application with real-time updates.",
-    "tags": ["Node.js", "React", "WebSockets"],
+    "title": "LaborLytics Mobile App",
+    "description": "A mobile application that provides hospitals with real-time dashboards and KPI insights.",
+    "tags": ["React Native", ".NET Core", "MSSQL"],
+    "link": "https://github.com/example/task-manager"
+  },
+  {
+    "id": "proj-3",
+    "imageUrl": "/images/project2.png",
+    "title": "LaborLytics 2.0",
+    "description": "A data-driven local web app created as the next version of LaborLytics, designed to help healthcare professionals manage their day-to-day work.",
+    "tags": ["React", ".NET Core", "MSSQL", "TailwindCSS"],
+    "link": "https://github.com/example/task-manager"
+  },
+  {
+    "id": "proj-4",
+    "imageUrl": "/images/project2.png",
+    "title": "Tenant Management",
+    "description": "A web application used as an internal tool to manage hospital functionality and access for the LaborLytics Mobile App.",
+    "tags": ["React", ".NET Core", "MSSQL", "TailwindCSS"],
     "link": "https://github.com/example/task-manager"
   }
 ]

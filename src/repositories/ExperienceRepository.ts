@@ -10,12 +10,10 @@ export class ExperienceRepository implements IExperienceRepository {
   private experiences: Experience[];
 
   constructor() {
-    // Typed mock data
     this.experiences = experienceData as Experience[];
   }
 
   async getAll(): Promise<Experience[]> {
-    // simulate async (API later, mock now)
     return Promise.resolve(this.experiences);
   }
 

@@ -15,9 +15,12 @@ export default function ProjectCard({
   tags,
   onTitleClickHandler,
 }: ProjectCardProps) {
+
+
+  
+//need to fix for mobile devices 
   return (
     <div id="project-card" className="flex flex-col md:flex-row gap-4 md:gap-6">
-      {/* Image */}
       <div
         className="
           w-full
@@ -29,7 +32,7 @@ export default function ProjectCard({
         <img
           src={imageUrl}
           alt={title}
-          className="w-full h-auto rounded border border-slate-700"
+          className="w-full h-auto rounded border border-slate-700 "
         />
       </div>
 
