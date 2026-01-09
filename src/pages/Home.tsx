@@ -103,7 +103,7 @@ export default function Home() {
         <section id="Resume"
           className="text-slate-100 mt-10 flex "
         >
-          <ProjectLink/>
+          <ProjectLink url="https://example.com/resume" />
         </section>
         <section
           id="project"

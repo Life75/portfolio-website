@@ -1,5 +1,5 @@
 import experienceData from "../data/experiences.json";
-//import  Experience  from '../types/Experience.type';
+import type { Experience } from '../types/Experience';
 
 export interface IExperienceRepository {
   getAll(): Promise<Experience[]>;

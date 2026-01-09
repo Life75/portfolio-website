@@ -12,7 +12,7 @@ import {
         className="flex gap-5"
       >
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Life75"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub profile"
@@ -23,7 +23,7 @@ import {
         </a>
   
         <a
-          href="https://www.linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/austyn-washington-05a0a71a2/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn profile"
@@ -38,7 +38,7 @@ import {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Goodreads profile"
-          className="text-slate-400 hover:text-white transition"
+          className="text-slate-400 hover:text-white transition hidden"
         >
           <FaGoodreads size={22} />
           <span className="sr-only">Goodreads</span>
@@ -49,7 +49,7 @@ import {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="CodePen profile"
-          className="text-slate-400 hover:text-white transition"
+          className="text-slate-400 hover:text-white transition hidden"
         >
           <FaCodepen size={22} />
           <span className="sr-only">CodePen</span>
