@@ -80,7 +80,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="content" className="flex flex-col  md:w-1/2 md:mt-0 mt-28 mx-6">
+      <div id="content" className="flex flex-col  md:w-1/2 md:mt-0 my-28 mx-6">
         <section
           id="about"
           className="md:mt-12 md:mt-0 relative text-slate-100"

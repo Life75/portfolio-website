@@ -16,8 +16,9 @@ export default function ExperienceList() {
           title={exp.title}
           description={exp.description}
           tags={exp.tags}
+          link={exp.link}
           onTitleClickHandler={() =>
-            console.log("Clicked:", exp.title)
+            exp.link && window.open(exp.link, "_blank")
           }
         />
       ))}

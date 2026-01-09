@@ -15,6 +15,7 @@ export default function ProjectList() {
           title={proj.title}
           description={proj.description}
           tags={proj.tags}
+          link={proj.link}
           onTitleClickHandler={() =>
             proj.link && window.open(proj.link, "_blank")
           }

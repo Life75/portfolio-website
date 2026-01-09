@@ -1,27 +1,27 @@
 [
     {
       "id": "exp-1",
-      "from": "2023",
+      "from": "2021",
       "to": "Present",
-      "title": "Frontend Engineer",
-      "description": "Built scalable UI components and improved performance across the main product experience.",
-      "tags": ["React", "TypeScript", "Tailwind"]
+      "title": "Full Stack Senior Engineer · HealthQlix",
+      "description": "I led frontend development for LaborLytics 2.0, a React and TypeScript web application that modernized hospital labor analytics workflows. Partnering with product and design, I built reusable, accessible UI components and owned features from prototype through launch, refining them using analytics and user feedback. I also improved performance and reliability through testing, code-splitting, and state optimization, contributing to a platform that has generated over $1M in revenue.",
+      "tags": ["React", "Vue 3","SwiftUI", "Kotlin", ".NET Core", "TypeScript", "Tailwind"]
     },
     {
       "id": "exp-2",
-      "from": "2021",
-      "to": "2023",
-      "title": "Software Engineer",
-      "description": "Worked on full-stack features, APIs, and internal tooling used by multiple teams.",
-      "tags": ["Node.js", "PostgreSQL", "GraphQL"]
+      "from": "2020",
+      "to": "2021",
+      "title": "Graduate Student Research Assistant · University of West Florida",
+      "description": "Analyzed existing database systems and evaluated modernization approaches to support upgrades and migrations to more efficient platforms. Collaborated closely with the database migration team to design and implement seamless transition strategies that minimized downtime while maintaining data integrity throughout the process.",
+      "tags": ["Node.js", "PostgreSQL"]
     },
     {
       "id": "exp-3",
       "from": "2020",
-      "to": "2021",
-      "title": "Mobile Developer",
-      "description": "Built cross-platform mobile features with a focus on performance and accessibility.",
-      "tags": ["React Native", "iOS", "Android"]
+      "to": "2020",
+      "title": "Software Engineer Intern · Microsoft",
+      "description": "Contributed to the development and debugging of internal tools, applying software testing and performance analysis practices to improve reliability and efficiency. Participated in technical design discussions and code reviews, strengthening understanding of scalable systems and effective cross-functional collaboration. Supported the prototyping and validation of new features, gaining hands-on experience in user-centered product development and growth experimentation.",
+      "tags": []
     }
   ]
   

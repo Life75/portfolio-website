@@ -3,25 +3,25 @@
     "id": "proj-1",
     "imageUrl": "https://fastly.picsum.photos/id/902/200/300.jpg?hmac=jcXqlZDNedKqsptpWe_80nmMFRvBXBCnWCpzYwJik3g",
     "title": "IndexZero",
-    "description": "Web app that visualizes the data structures with a mobile first approach.",
-    "tags": ["Vue 3", "TypeScript", "TailwindCSS", "DaisyUI", "Firebase"],
+    "description": "Index Zero is a data structures and algorithms visualizer designed to help students and learners better understand how popular sorting algorithms work. Built with a mobile-first approach, the platform delivers an intuitive, interactive learning experience that makes complex concepts easier to grasp on any device. By combining clear visualizations with performance-optimized UI, Index Zero bridges the gap between theory and hands-on understanding for both beginners and experienced developers.",
+    "tags": ["Vue 3", "TypeScript", "TailwindCSS", "DaisyUI"],
     "link": "https://indexzero-861d3.web.app/"
   },
   {
     "id": "proj-2",
     "imageUrl": "/images/project2.png",
     "title": "LaborLytics Mobile App",
-    "description": "A mobile application that provides hospitals with real-time dashboards and KPI insights.",
+    "description": "A cross-platform mobile application designed to provide healthcare professionals with real-time, modernized dashboards and key performance metrics. The app features an intuitive, responsive UI that simplifies complex data, helping users quickly monitor operational performance and make informed decisions. Built with scalability and maintainability in mind, it supports both iOS and Android platforms while delivering a seamless, consistent user experience.",
     "tags": ["React Native", ".NET Core", "MSSQL"],
-    "link": "https://github.com/example/task-manager"
+    "link": ""
   },
   {
     "id": "proj-3",
     "imageUrl": "/images/project2.png",
-    "title": "LaborLytics 2.0",
-    "description": "A data-driven local web app created as the next version of LaborLytics, designed to help healthcare professionals manage their day-to-day work.",
+    "title": "LaborLytics v2.0",
+    "description": "A data-driven local web application built as the next generation of the successful LaborLytics platform, designed to help healthcare professionals manage their daily workflows more efficiently. Featuring an updated UI, reusable components, and performance optimizations, the app streamlines complex tasks while maintaining reliability and accessibility across devices.",
     "tags": ["React", ".NET Core", "MSSQL", "TailwindCSS"],
-    "link": "https://github.com/example/task-manager"
+    "link": ""
   },
   {
     "id": "proj-4",
@@ -29,6 +29,14 @@
     "title": "Tenant Management",
     "description": "A web application used as an internal tool to manage hospital functionality and access for the LaborLytics Mobile App.",
     "tags": ["React", ".NET Core", "MSSQL", "TailwindCSS"],
-    "link": "https://github.com/example/task-manager"
+    "link": ""
+  }, 
+  {
+    "id": "proj-5",
+    "imageUrl": "/images/project2.png",
+    "title": "Jesus Can Help Ministry",
+    "description": "Simple static website built to simply showcase activities, events, and general information.",
+    "tags": ["Vue 3", "TailwindCSS"],
+    "link": "https://jesuscanhelpministry.com/"
   }
 ]
